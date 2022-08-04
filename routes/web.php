@@ -39,5 +39,6 @@ Route::get(
 );
 
 Route::get('/colors', [W::class, 'colors']);
+Route::post('/colors', [W::class, 'addColors'])->name('save-colors');
 
 require __DIR__ . '/auth.php';
