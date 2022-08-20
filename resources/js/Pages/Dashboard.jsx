@@ -14,7 +14,21 @@ export default function Dashboard(props) {
             }
         >
             <Head title="Dashboard" />
-
+            <div class="dropdown">
+                <div class="dropdown show">
+                    <a
+                        class="btn btn-secondary dropdown-toggle"
+                        href="http://localhost:8000/colors"
+                        role="button"
+                        id="dropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        COlors
+                    </a>
+                </div>
+            </div>
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg">

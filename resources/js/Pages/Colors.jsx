@@ -24,7 +24,7 @@ function Colors({ niceColors, saveUrl }) {
     const save = () => {
         axios.post(saveUrl, colors).then((res) => console.log(res));
     };
-
+   
     return (
         <>
             <div className="my-bin">

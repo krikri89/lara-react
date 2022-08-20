@@ -1,4 +1,4 @@
 function LabasComponent() {
-    return <h1 className="text-9xl font-serif text-green-700">Labas</h1>;
+    return <p class="font-weight-bold text-uppercase">Bold text.</p>;
 }
 export default LabasComponent;
